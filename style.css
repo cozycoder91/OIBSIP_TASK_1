@@ -1,0 +1,63 @@
+
+html, body {
+  height: 45%;
+width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+.container{
+ display: inline;
+ justify-content: left;
+
+}
+.container_second{  border: 6px black solid;
+  background-color: rgb(204, 241, 144);
+  border-radius:8px;
+
+ 
+
+}
+.text-center{
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  
+}
+.button:hover{
+  background-color: rgb(177, 235, 215);
+}
+
+
+.row{
+margin: 8px 2px 6px 0px;
+padding:0PX ;
+display: grid;
+grid-template-columns: repeat(4,auto);
+
+
+}
+
+
+
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 15px 0px;
+    border: 45solid black;
+    border-radius: 10px;
+   background-color: rgb(197, 203, 238);
+}
